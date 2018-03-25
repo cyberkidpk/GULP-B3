@@ -15,3 +15,8 @@ browserify = require('browserify'),
 watchify = require('watchify'),
 babel = require('babelify'),
 browserifyCSS= require('browserify-css');
+
+
+
+npm install
+gulp start:build
