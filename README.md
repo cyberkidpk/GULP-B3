@@ -19,4 +19,5 @@ browserifyCSS= require('browserify-css');
 
 
 npm install
+/n
 gulp start:build
