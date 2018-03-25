@@ -1,0 +1,43 @@
+{
+  "name": "backbonemarionette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserify-css": {
+    "autoInject": true,
+    "minify": true,
+    "rootDir": "."
+  },
+  "author": "Piyush Kanungo <cyberkidpk@gmail.com>",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "path": "^0.12.7",
+    "systemjs": "^0.21.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.1",
+    "browserify-css": "^0.14.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-print": "^2.0.1",
+    "gulp-rollup": "^1.7.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-webserver": "^0.9.1",
+    "run-sequence": "^2.2.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  },
+  "license": "ISC"
+}

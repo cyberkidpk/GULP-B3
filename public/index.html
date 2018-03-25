@@ -1,0 +1,26 @@
+<html>
+<head>
+<title> Backbonejs - Marionette Plugin App</title>
+<head>
+<link rel="stylesheet" type="text/css" href="/bundle.css">
+</head>
+ <body>                                    
+        <ul class="liSection">
+                <li class="home-sec"><a>Home</a></li>
+                <li class="about-sec"><a>About</a></li>
+                <li class="contact-sec"><a>Contact</a></li>
+            </ul>
+          
+            <div id="home-page" class="pages">Backbonejs - Marionette Plugin App home page!</div>
+            <div id="about-page" class="pages" style="display:none">Backbonejs - Marionette Plugin App about page!</div>
+            <div id="contact-page" class="pages" style="display:none">Backbonejs - Marionette Plugin App contact page!</div>
+
+        <script id="hello-template" type="x-template/underscore">
+                <h1>Hello, world Backbonejs - Marionette Plugin App <%- name %></h1>
+                </script>
+                
+        <script src="vendors/vendors.js"></script>
+        <script>var exports = {};</script>
+        <script src="/app.js" type="text/javascript"></script>
+</body>
+</html>
